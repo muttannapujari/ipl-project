@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    
+    <link rel="stylesheet" href="./Style.css"/>
+
+    <script src="https://kit.fontawesome.com/6f5013579e.js" crossorigin="anonymous"></script>
+
+    <title>Add IPL Team</title>
+  </head>
+  <body>
+    <header>
+      <div id="topbar-container-2">
+        <div id="topbar-right">
+          <img src="https://i.pinimg.com/736x/26/8b/e0/268be02061a78cdf9ae1b83fdeb0ae44.jpg" alt="logo here"id="logo"/>
+          <a href="./index.html">
+            <button id="home-button" class="add-button">Home</button>
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <div id="add-team">
+      <h1 id="title">Add The Team</h1>
+      <form id="addteamform">
+
+        <p>Team Name</p>
+        <input id="input1" type="text" name="teamName" placeholder="Enter The Team Name" required/>
+
+        <p>Team logo Url</p>
+        <input id="input3" type="text" name="logoUrl" placeholder="Enter The Logo URL" required/>
+
+        <p>Won count</p>
+        <input id="input4" type="number" name="wonCount" maxlength="1" placeholder="Enter The Won Count" required/>
+
+        <button type="submit">Add team</button>
+
+      </form>
+    </div>
+    <footer>
+      <div>
+
+        <h4>INDIAN PREMIER LEAGUE</h4>
+        <h4>IPL Cricket Teams</h4>
+      
+      </div>
+    </footer>
+    <script src="./Add-Team.js"></script>
+  </body>
+</html>

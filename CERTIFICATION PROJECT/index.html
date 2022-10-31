@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <link rel="stylesheet" href="./Style.css"/>
+
+    <script src="https://kit.fontawesome.com/6f5013579e.js"crossorigin="anonymous"> </script>
+    
+    <title>IPL Project</title>
+  </head>
+  <body>
+     <!-- Header Section  -->
+    <header>
+      <div id="topbar-container">
+        <div id="topbar-right">
+          <img src="https://i.pinimg.com/736x/26/8b/e0/268be02061a78cdf9ae1b83fdeb0ae44.jpg" alt="logo here" id="logo"/>
+          <a href="index.html">
+            <button id="home-button" class="add-button">Home</button>
+          </a>
+        </div>
+        <div id="topbar-left">
+          <div class="search-input">
+              <a href="" target="_blank" hidden></a>
+              <input type="text" placeholder="Enter Team Name. eg - MI">
+            <div class="autocom-box"></div>
+            <div class="icon"><i class="fa fa-search" aria-hidden="true"></i></div>
+         </div> 
+         
+
+  <!-- Add Buttons -->
+
+          <button id="add-team-button" class="add-button" onclick="addteamclicked()"> Add Team </button>
+
+          <button id="add-player-button" class="add-button" onclick="addPlayerClicked()">Add Player </button>
+        </div>
+      </div>
+     </header>
+     
+  <!-- Header End  -->
+   <div>
+    <h1 id="ipl-title">2022 INDIAN PREMIER LEAGUE TEAMS</h1>
+          <div id="first-main">
+            <div id="container_teams"></div>
+          </div>
+    </div>
+ <!-- footer Section -->
+    <footer>
+
+        <div>
+          <h4>INDIAN PREMIER LEAGUE</h4>
+
+          <h4>Cricket Teams</h4>
+        </div>
+
+    </footer>
+    <script src="./index.js"></script>
+</body>
+</html>
